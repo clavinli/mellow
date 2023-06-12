@@ -1,6 +1,8 @@
 {
   "name": "Mellow",
   "version": "0.1.22",
+  "author": "Clavinli",
+  "description": "Mellow is a rule-based global transparent proxy client for Windows, macOS and Linux. Also a Proxifier alternative.",
   "main": "src/main.js",
   "scripts": {
     "test": "jest",
@@ -59,7 +61,7 @@
           ]
         },
         "src/helper/geosite.dat",
-        "src/helper/geo.mmdb",
+        "src/helper/geoip.dat",
         "src/locales/en/translation.json",
         "src/locales/zh/translation.json"
       ]
@@ -88,7 +90,7 @@
           ]
         },
         "src/helper/geosite.dat",
-        "src/helper/geo.mmdb",
+        "src/helper/geoip.dat",
         "src/locales/en/translation.json",
         "src/locales/zh/translation.json"
       ]
@@ -110,7 +112,7 @@
           ]
         },
         "src/helper/geosite.dat",
-        "src/helper/geo.mmdb",
+        "src/helper/geoip.dat",
         "src/locales/en/translation.json",
         "src/locales/zh/translation.json"
       ]
