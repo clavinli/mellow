@@ -30,7 +30,7 @@ async function download(url, filePath) {
   })
   resp.data.pipe(writer)
   writer.on('finish', () => {
-    console.log('Saved file', filePath)
+    console.log('Saved file to', filePath)
   })
   writer.on('error', (err) => {
     console.log('Download failed.', err)
